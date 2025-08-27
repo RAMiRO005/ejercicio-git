@@ -1,6 +1,6 @@
 :root{
-    --fondo_header: cornflowerblue ;
-    --color_header: aqua;
+    --fondo_header: rgb(55, 0, 255) ;
+    --color_header: rgb(255, 217, 0);
 
     --fondo_titulo: #0a33ed;
     --color-titulo: white;
@@ -34,13 +34,13 @@ body {
 }
 
 header {
-    background-color: cornflowerblue;
-    color: aqua;
+    background-color: rgb(255, 251, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
 .titulosuperior{
-    background-color:  #0a33ed;
+    background-color:  #ff0000;
     padding: 10px;
     letter-spacing: 5px;
 
@@ -50,7 +50,7 @@ header {
 
 .titulocentro {
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     margin: 26px;  
     word-spacing: 8px;
@@ -60,8 +60,8 @@ header {
 
 .tituloinferior{
     font-size: 20px;
-    background-color: #0db7f7;
-    color: white;
+    background-color: #f70d0d;
+    color: rgb(255, 255, 255);
     text-align: right;
     padding: 10px;
 }
@@ -78,7 +78,7 @@ section {
 }
 
 section h2 {
-    background-color: #0db7f7;
+    background-color: #f70d0d;
     color: white;
     padding: 10px 10px;
 }
@@ -106,7 +106,7 @@ article img{
 
 footer {
     
-    background-color: #0db7f7;
+    background-color: #f70d0d;
     color: white;
     text-align: center;
         
@@ -123,14 +123,13 @@ header a{
     color: #fff;
     text-decoration: none;
     
-   
 }
 
 /* Formulario */
 
 .formulario{
 
-   	width: 60%;
+width: 60%;
 	margin: 50px auto;
 	padding: 15px;
 
@@ -165,7 +164,7 @@ background-color: #fff;
 }
 
 .guardar{
-    background-color: #0a33ed;
+    background-color: #ed0a0a;
     color: white;
 }
 
