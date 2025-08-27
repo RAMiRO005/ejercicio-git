@@ -169,17 +169,17 @@ background-color: #fff;
 }
 
 .guardar:hover{
-    background-color: #0db9f779 ;
+    background-color: rgb(255, 251, 0);
 }
 
 .cancelar {
-    background-color: cornflowerblue;
+    background-color: #ed0a0a;
     color: white;
 
 }
 
 .cancelar:hover{
-    background-color: #0db9f779;
+    background-color: rgb(255, 251, 0);
 
 }
 
@@ -188,7 +188,7 @@ background-color: #fff;
 .boton{
 	width: 70px;
 	height: 40px;
-	background-color: cornflowerblue;
+	background-color: #ed0a0a;
 	border-radius: 5px;
 
 	position: fixed;
@@ -202,7 +202,8 @@ background-color: #fff;
 
 .boton:hover{
 	width: 90px;
-    background-color: #0a33ed;
+    background-color: rgb(255, 251, 0);
+;
     
 }
 
